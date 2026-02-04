@@ -8,7 +8,7 @@ import Transaction from './pages/transaction/Transaction'
 function App() {
   return(
     <Router>
-      <div className="pb-20">
+      <div className='pb-20'>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/transaction" element={<Transaction />} />

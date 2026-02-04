@@ -1,8 +1,13 @@
 import React from 'react'
+import ProfileCard from './ProfileCard'
+import InformationCard from './InformationCard'
 
 function Profile() {
   return (
-    <div>Profile</div>
+    <section>
+      <ProfileCard />
+      <InformationCard />
+    </section>
   )
 }
 

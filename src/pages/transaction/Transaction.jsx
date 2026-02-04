@@ -46,6 +46,15 @@ return (
                         </div>
                     </div>
                     <div className="sm:col-span-4">
+                        <label for="tanggal" className="block text-sm/6 font-medium">Tanggal</label>
+                            <div className="mt-2">
+                            <div
+                                className="flex items-center rounded-md bg-gray-200 pl-3 outline-1 -outline-offset-1 outline-gray-200 focus-within:outline-2 focus-within:-outline-offset-2 focus-within:outline-blue-exin">
+                                    <input type="date" className="block min-w-0 grow bg-transparent py-4 pr-3 pl-1 text-base text-gray-400 placeholder:text-gray-500 focus:outline-none sm:text-sm/6" />
+                                </div>
+                            </div>
+                    </div>
+                    <div className="sm:col-span-4">
                         <label for="categories" className="block mb-2.5 text-sm font-medium text-heading">Kategori</label>
                                 <Select
                                     styles={customStyles}

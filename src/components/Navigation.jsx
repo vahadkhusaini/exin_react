@@ -31,7 +31,7 @@ function Navigation() {
                     </li>
                     <li>
                         <NavLink 
-                            to="/contact" 
+                            to="/profile" 
                             className={({ isActive }) => 
                                 `flex justify-center flex-col items-center gap-1 ${
                                     isActive ? 'text-blue-exin' : 'opacity-50'

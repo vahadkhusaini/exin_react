@@ -7,4 +7,9 @@
   --color-red-exin: #e94573;
   --color-red-exin-blur: #e95792;
   --color-bg-exin: #f6fdff;
+  --bg-exin: var(--color-bg-exin);
+}
+
+body {
+  background-color: var(--bg-exin);
 }
