@@ -53,20 +53,30 @@ function History() {
         description: "Nonton Bioskop",
         date: new Date(2026, 0, 3).toISOString(),
     },
+    {
+        id: "7",
+        type: "expense",
+        amount: 200000,
+        category: "Hiburan",
+        description: "Liburan Akhir Pekan",
+        date: new Date(2026, 0, 3).toISOString(),
+    },
     ];
 
     return (
-        <div className='rounded-xl shadow-lg max-w-sm mx-auto p-4 mt-4 bg-bg-exin'>
-            <p className='text-lg text-bold'>Riwayat Transaksi</p>
-            {transactions.map((trans) => (
-                <TransactionItem 
-                    type={trans.type}
-                    amount={trans.amount}
-                    category={trans.category}
-                    description={trans.description}
-                    date={trans.date}
-                />
-            ))}
+        <div className='rounded-xl shadow-lg w-full px-6 py-4 bg-bg-exin min-h-80 md:min-h-100'>
+            <p className='text-lg font-bold md:text-2xl mb-4'>Riwayat Transaksi</p>
+            <div className='space-y-3 overflow-y-auto max-h-[calc(100%-3rem)]'>
+                {transactions.map((trans) => (
+                    <TransactionItem 
+                        type={trans.type}
+                        amount={trans.amount}
+                        category={trans.category}
+                        description={trans.description}
+                        date={trans.date}
+                    />
+                ))}
+            </div>
         </div>
     )
 }

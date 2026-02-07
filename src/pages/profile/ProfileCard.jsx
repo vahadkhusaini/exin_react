@@ -3,7 +3,7 @@ import { ArrowUpRight, ArrowDownRight, Wallet, User } from "lucide-react";
 
 function ProfileCard() {
   return (
-      <div className='rounded-3xl shadow-md max-w-sm mx-auto mt-6 p-6 bg-blue-exin'>
+      <div className='rounded-3xl shadow-md max-w-lg mx-auto mt-6 p-6 bg-blue-exin'>
             <div className='flex gap-2 items-center'>
               <div className='rounded-full p-3 bg-blue-400'>
                 <User className='h-10 w-10 m-2 text-white'/>

@@ -4,7 +4,7 @@ import { User, Mail, Key, Lock, Sun, LogOut } from "lucide-react";
 function InformationCard() {
   return (
     <div>
-      <div className='rounded-3xl shadow-md max-w-sm mx-auto mt-6 p-5 bg-white'>
+      <div className='rounded-3xl shadow-md max-w-lg mx-auto mt-6 p-5 bg-white'>
             <p className='text-lg text-bold'>Informasi Akun</p>
 
             <div className='flex gap-2 items-center mt-6'>
@@ -29,7 +29,7 @@ function InformationCard() {
             <hr className='text-gray-300 opacity-50 mt-5' />
         </div>
 
-      <div className='rounded-3xl shadow-md max-w-sm mx-auto mt-6 p-5 bg-white'>
+      <div className='rounded-3xl shadow-md max-w-lg mx-auto mt-6 p-5 bg-white'>
         <div className="flex justify-between items-center mb-4">
             <p className='text-lg text-bold'>Keamanan</p>
             <button className='outline-blue-400 outline-2 outline-offset-2 rounded-sm px-2 hover:bg-blue-100 transition'>        
@@ -41,7 +41,7 @@ function InformationCard() {
           
             </button>
         </div>
-            <div className='flex gap-2 items-center mt-6 mb-5'>
+        <div className='flex gap-2 items-center mt-6 mb-5'>
               <div className='rounded-xl bg-blue-400'>
                 <Lock className='h-5 w-5 m-2 text-white'/>
               </div>
@@ -52,7 +52,7 @@ function InformationCard() {
             </div>
         </div>
 
-        <div className='rounded-3xl shadow-md max-w-sm mx-auto mt-6 p-5 bg-white'>
+        <div className='rounded-3xl shadow-md max-w-lg mx-auto mt-6 p-5 bg-white'>
             <p className='text-lg text-bold'>Pengaturan Tampilan</p>
 
             <div className='flex gap-2 items-center mt-6'>
@@ -66,7 +66,7 @@ function InformationCard() {
             </div>
         </div>
 
-        <div className='rounded-3xl shadow-md max-w-sm mx-auto mt-6 p-5 bg-white'>
+        <div className='rounded-3xl shadow-md max-w-lg mx-auto mt-6 p-5 bg-white'>
             <div className='flex gap-2 items-center py-4'>
               <div className='rounded-xl bg-red-400'>
                 <LogOut className='h-5 w-5 m-2 text-white'/>

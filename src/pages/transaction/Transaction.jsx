@@ -34,14 +34,14 @@ return (
                 <p className='text-lg text-bold'>Tambah Transaksi Baru</p>
                 <p className='text-md font-thin'>Catat pemasukan atau pengeluaran anda</p>
             </div>
-            <form className="max-w-sm mx-auto mt-10">
-                <div className="mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
+            <form className="w-full mx-auto mt-10">
+                <div className="mt-10 space-y-4">
                     <div className="sm:col-span-4">
                         <label for="keterangan" className="block text-sm/6 font-medium">Tipe</label>
                         <div className="mt-2">
                             <div className='flex flex-row gap-4'>
-                                <button className='w-1/2 mx-auto rounded-xl bg-green-exin text-white p-4'>Pemasukan</button>
-                                <button className='w-1/2 mx-auto rounded-xl bg-red-exin text-white p-4'>Pengeluaran</button>
+                                <button className='w-1/2 mx-auto rounded-xl bg-gray-200 hover:bg-green-exin hover:text-white p-4'>Pemasukan</button>
+                                <button className='w-1/2 mx-auto rounded-xl bg-gray-200 hover:bg-red-exin hover:text-white p-4'>Pengeluaran</button>
                             </div> 
                         </div>
                     </div>
@@ -91,7 +91,7 @@ return (
                     </div>
 
                     <div className="sm:col-span-4">
-                        <button className="w-full md:w-1/2 bg-blue-exin hover:bg-blue-400 text-white font-bold py-2 px-4 rounded-xl">
+                        <button className="w-full bg-blue-exin hover:bg-blue-400 text-white font-bold py-2 px-4 rounded-xl">
                             Simpan Transaksi
                         </button>
                     </div>

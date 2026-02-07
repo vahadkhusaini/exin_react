@@ -31,17 +31,17 @@ const categoryColors = {
 };
 
     return (
-        <div className='rounded-2xl shadow-md max-w-sm px-4 py-3 mt-2'>
-            <div className='flex flex-row gap-3 items-center justify-between'>
-                <div className={`${categoryColors[category]} rounded-xl p-2 text-white inset-shadow-sm`}>
+        <div className='rounded-2xl shadow-md w-full px-4 py-3 mt-2 md:py-5 md:px-6'>
+            <div className='flex flex-row gap-3 md:gap-5 items-center justify-between'>
+                <div className={`${categoryColors[category]} rounded-xl p-2 md:p-4 text-white inset-shadow-sm`}>
                     {categoryIcons[category]}
                 </div>
                 <div className='grow'>
-                    <p className='text-sm text-bold'>{category}</p>
-                    <p className='text-xs opacity-90'>{description }</p>
+                    <p className='text-sm md:text-lg text-bold'>{category}</p>
+                    <p className='text-xs md:text-sm opacity-90'>{description }</p>
                 </div>
                 <div>
-                    <p className={`text-sm text-bold ${type == 'income' ? 'text-red-exin' : 'text-green-exin'}`}>{ total }</p>
+                    <p className={`text-sm md:text-lg text-bold ${type == 'income' ? 'text-red-exin' : 'text-green-exin'}`}>{ total }</p>
                 </div>
 
             </div>

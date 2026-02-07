@@ -4,7 +4,7 @@ import InformationCard from './InformationCard'
 
 function Profile() {
   return (
-    <section>
+    <section className='px-4'>
       <ProfileCard />
       <InformationCard />
     </section>
